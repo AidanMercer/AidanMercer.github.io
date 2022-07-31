@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+.navbar{
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content{
+    color: #fbfcfd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.android{
+    color: #111;
+    position: absolute;
+    top: -70%;
+    left: 50%;
+    transform: translate(-50%, -700%);
+}
+.Windows{
+    color: #111;
+    position: absolute;
+    top: -70%;
+    left: 250%;
+    transform: translate(-375%, -700%);
+}
+.IOS{
+    color: #111;
+    position: absolute;
+    top: -70%;
+    left: -150%;
+    transform: translate(750%, -700%);
+}
+.android_card{
+    width: 300px;
+    height: 70vh;
+    background: linear-gradient(#00545d, #000729);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.IOS_card{
+    width: 300px;
+    height: 70vh;
+    background: linear-gradient(#00545d, #000729);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-200%, -50%);
+    z-index: 2;
+}
+.Windows_card{
+    width: 300px;
+    height: 70vh;
+    background: linear-gradient(#00545d, #000729);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(100%, -50%);
+    z-index: 2;
+}
+.dlAndroid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 500%);
+}
+.dlWindows{
+    position: absolute;
+    top: 50%;
+    left: 250%;
+    transform: translate(-250%, 500%);
+}
+.dlIOS{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(150%, 500%);
+}
+button{
+    position: relative;
+    border: none;
+    padding: 10px 30px;
+    background: transparent;
+    margin: 0 15px;
+    color: #21ebff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+button:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #21ebff;
+    border-left: 2px solid #21ebff;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+}
+button:hover:before{
+    width: 100%;
+    height: 100%;
+}
+button:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #21ebff;
+    border-right: 2px solid #21ebff;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+}
+button:hover:after{
+    width: 100%;
+    height: 100%;
+}
+a:nth-child(1){
+    filter: hue-rotate(654deg);
+}
+button:hover{
+    background: #21ebff;
+    color: #111;
+    box-shadow: 0 0 50px #21ebff;
+    transition-delay: 0.25s;
+}
+.social img{
+    width: 50px;
+    cursor: pointer;
+}
+.social{
+    position: fixed;
+    top: 94%;
+    left: 91%;
+}
+button2{
+    position: relative;
+    border: none;
+    padding: 10px 10px;
+    background: transparent;
+    margin: 0 10px;
+    color: #21ebff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 40px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+button2:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #21ebff;
+    border-left: 2px solid #21ebff;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+}
+button2:hover:before{
+    width: 100%;
+    height: 100%;
+}
+button2:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #21ebff;
+    border-right: 2px solid #21ebff;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+}
+button2:hover:after{
+    width: 100%;
+    height: 100%;
+}
+button2:hover{
+    background: #21ebff;
+    color: #111;
+    box-shadow: 0 0 50px #21ebff;
+    transition-delay: 0.25s;
+}
+b:nth-child(1){
+    filter: hue-rotate(150deg);
+}
